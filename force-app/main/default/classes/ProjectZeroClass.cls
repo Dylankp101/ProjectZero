@@ -1,4 +1,4 @@
-public class ProjectZeroClass {
+private class ProjectZeroClass {
     public static void vehicleDeleteProtection(List<Vehicle__c> vehicle){
         for(Vehicle__c V: vehicle){
             if(v.Customer__c != null){
